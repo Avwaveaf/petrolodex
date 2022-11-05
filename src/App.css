@@ -1,11 +1,14 @@
 .App {
-  text-align: center;
   display: flex;
   flex-direction: column;
-
+  box-sizing: border-box;
   margin: auto;
+  text-align: center;
 }
 .App button {
   width: 300px;
   margin: auto;
+}
+*:focus {
+  outline: none;
 }

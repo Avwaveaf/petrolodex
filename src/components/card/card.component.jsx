@@ -10,14 +10,31 @@ class Card extends Component {
         {isFiltered === true ? (
           <div
             style={{
-              background: arrayLength <= 5 ? "green" : "none",
+              transform: arrayLength < 5 ? "scale(1.1) " : "none",
+              border:
+                arrayLength === 1
+                  ? "5px solid black"
+                  : arrayLength < 5
+                  ? "5px dotted black "
+                  : "",
             }}
+            className="cardItem-container"
           >
+            <img
+              src={`https://robohash.org/${cardData.firstName}.png?set=set4`}
+              alt={`${cardData.firstName}`}
+            />
             <h1>{cardData.firstName}</h1>
+            <p>{cardData.email}</p>
           </div>
         ) : (
-          <div>
+          <div className="cardItem-container">
+            <img
+              src={`https://robohash.org/${cardData.firstName}.png?set=set4`}
+              alt={`${cardData.firstName}`}
+            />
             <h1>{cardData.firstName}</h1>
+            <p>{cardData.email}</p>
           </div>
         )}
       </div>

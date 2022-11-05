@@ -1,0 +1,19 @@
+.searchbar-container {
+  width: 30%;
+  background-color: whitesmoke;
+  border-radius: 50px;
+
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+.searchbar-container input {
+  width: 97%;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: whitesmoke;
+}

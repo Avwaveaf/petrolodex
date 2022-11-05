@@ -65,8 +65,10 @@ class App extends Component {
 
     return (
       <div className="App">
-        <SearchBox onChange={onChangeSearchHandler} />
-
+        <SearchBox
+          placeholder={"search any pet"}
+          onChange={onChangeSearchHandler}
+        />
         <CardList
           filteredData={filteredCatsArray}
           notFilteredData={unfilteredCatsArray}

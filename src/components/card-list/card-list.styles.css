@@ -1,6 +1,26 @@
 .cardList-container {
   display: flex;
   justify-content: space-between;
-  padding: 30px 50px;
+  padding: 30px 10%;
   flex-wrap: wrap;
+}
+.content-container {
+  margin: 0px;
+}
+.cardList-container-child {
+  flex: 1 0 21%; /* explanation below */
+  cursor: pointer;
+}
+
+.popUp-closeButton {
+  position: fixed;
+  right: 24%;
+  top: 8%;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  z-index: 101;
+}
+.popUp-closeButton:hover {
+  cursor: pointer;
 }
