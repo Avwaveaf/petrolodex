@@ -8,7 +8,7 @@
  4. you can sort the card by using a keyword that are match with Cat Username
  5. the cat description are in Card Component
  
-### This project are fully developed by using react;
+### This project are fully developed by using RectJS :rocket:
 so enjoy my small project :wink:
 
 you can find me on my [LinkedIn](https://www.linkedin.com/in/muhamad-afif-fadillah-9bab0221a) profile and contact me for collab on your project :angel::thumbsup:
