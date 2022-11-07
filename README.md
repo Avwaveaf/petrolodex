@@ -1,4 +1,4 @@
-## :zap: Welcome to my pet rolodex simple project
+## :zap: Welcome to my pet rolodex simple project 🐈
  this project contain the list of cats that you can addopt and see for the description of corresponding pets. all the components are using class based component, only for the context i used functional component.
  
  ## Whats inside? :globe_with_meridians:
