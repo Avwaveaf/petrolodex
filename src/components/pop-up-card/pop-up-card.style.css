@@ -11,6 +11,9 @@
   overflow: hidden;
   background-image: url("../../assets/Forest_landscape.svg");
 }
+.data-title {
+  font-weight: bold;
+}
 .popupCard-container .background-img {
   z-index: -1;
 }

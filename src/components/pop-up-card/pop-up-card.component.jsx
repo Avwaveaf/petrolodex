@@ -10,7 +10,6 @@ class PopUpCard extends Component {
     };
   }
   render() {
-    console.log(this.props.data);
     const { firstName, lastName, hair, gender, age, weight, eyeColor } =
       this.props.data;
     const { type } = hair;
@@ -31,18 +30,36 @@ class PopUpCard extends Component {
               </div>
 
               <div className="bioData-container">
-                <p>{`full-name : ${firstName} ${lastName}`}</p>
-                <p>{`Age : ${Math.ceil(age / 15)} Years Old`}</p>
-                <p>{`Gender : ${gender}`}</p>
-                <p>{`Weight : ${Math.floor(weight - (weight - 4))} Kg`}</p>
+                <p>
+                  <span className="data-title">Full-name :</span>
+                  {` ${firstName} ${lastName}`}
+                </p>
+                <p>
+                  <span className="data-title">Age :</span>
+                  {` ${Math.ceil(age / 15)} Years Old`}
+                </p>
+                <p>
+                  <span className="data-title">Gender :</span>
+                  {` ${gender}`}
+                </p>
+                <p>
+                  <span className="data-title">Weight :</span>
+                  {` ${Math.floor(weight - (weight - 4))} Kg`}
+                </p>
                 <div className="eyeColor-container">
-                  <p>{`Eye Color : ${eyeColor}`}</p>
+                  <p>
+                    <span className="data-title">Eye Color :</span>
+                    {` ${eyeColor}`}
+                  </p>
                   <span
                     className="color"
                     style={{ background: `${eyeColor}` }}
                   ></span>
                 </div>
-                <p>{`Fur-Type : ${type}`}</p>
+                <p>
+                  <span className="data-title">Fur-Type :</span>
+                  {` ${type}`}
+                </p>
               </div>
             </div>
           </div>

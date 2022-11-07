@@ -1,0 +1,37 @@
+.drop-down-card-container {
+  display: none;
+  opacity: 0;
+}
+.category-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.show {
+  display: inline;
+  opacity: 1;
+}
+
+.category-button {
+  cursor: pointer;
+  border: none;
+  margin-top: 0;
+  padding: 5px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+  font-size: medium;
+}
+.clicked {
+  color: black;
+}
+
+.category-button-selection p {
+  padding: 10px;
+}
+
+.drop-down-card-container .category-button-selection :hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}

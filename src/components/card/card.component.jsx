@@ -21,7 +21,7 @@ class Card extends Component {
             className="cardItem-container"
           >
             <img
-              src={`https://robohash.org/${cardData.firstName}.png?set=set4`}
+              src={`https://robohash.org/${cardData.firstName}.png?set=set4&size=180x180`}
               alt={`${cardData.firstName}`}
             />
             <h1>{cardData.firstName}</h1>
@@ -30,7 +30,7 @@ class Card extends Component {
         ) : (
           <div className="cardItem-container">
             <img
-              src={`https://robohash.org/${cardData.firstName}.png?set=set4`}
+              src={`https://robohash.org/${cardData.firstName}.png?set=set4&size=180x180`}
               alt={`${cardData.firstName}`}
             />
             <h1>{cardData.firstName}</h1>

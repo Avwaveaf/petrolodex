@@ -7,7 +7,14 @@ class ResultCounter extends Component {
     const { countThisData, counterName } = this.props;
     return (
       <div className="title-counter-container">
-        <p>
+        <p
+          style={{
+            background:
+              countThisData.length < 3 && countThisData.length !== 0
+                ? "yellow"
+                : "",
+          }}
+        >
           {countThisData.length === 0
             ? `${counterName} unavailable`
             : `${counterName} found (${countThisData.length})`}

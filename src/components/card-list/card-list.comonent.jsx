@@ -68,7 +68,15 @@ class CardList extends Component {
               </div>
             ))}
             {notFilteredData.map((e) => (
-              <Card cardData={e} key={e.id} />
+              <div
+                key={e.id}
+                onClick={() =>
+                  this.setState({ clickedData: e, isClicked: "yes" })
+                }
+                className={"cardList-container-child"}
+              >
+                <Card cardData={e} key={e.id} />
+              </div>
             ))}
           </div>
         )}

@@ -1,0 +1,25 @@
+.nav-container {
+  height: 50px;
+
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  padding-left: 5%;
+  background-color: black;
+
+  justify-content: start;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+.nav-container a {
+  text-decoration: none;
+  color: white;
+
+  padding-bottom: 10px;
+}
+
+.ad-text {
+  font-size: xx-large;
+  font-family: "Pacifico", cursive;
+}

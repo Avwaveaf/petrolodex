@@ -12,7 +12,13 @@
   height: 100%;
   margin: 0 auto;
   border-radius: 50px;
+  padding-top: 20px;
 }
+
+.blur {
+  opacity: 0.5;
+}
+
 .card-container:hover {
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */

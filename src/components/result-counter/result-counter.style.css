@@ -3,3 +3,7 @@
   margin-top: 10px;
   height: 0;
 }
+.title-counter-container p {
+  font-family: "Pacifico", cursive;
+  font-size: medium;
+}
