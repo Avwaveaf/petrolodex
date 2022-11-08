@@ -2,7 +2,7 @@
   width: 30%;
   background-color: whitesmoke;
   border-radius: 50px;
-
+  border: 2px solid black;
   margin: auto;
   margin-top: 100px;
   padding: 10px;
@@ -23,4 +23,10 @@
   text-align: center;
   font-size: medium;
   color: lightgray;
+}
+
+@media only screen and (max-width: 600px) {
+  .searchbar-container {
+    width: 80%;
+  }
 }

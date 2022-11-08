@@ -2,9 +2,12 @@ import { Component } from "react";
 
 import "./card.style.css";
 
+import AddToCartBtn from "../add-to-cart-button/add-to-cart-btn.component";
+
 class Card extends Component {
   render() {
     const { cardData, isFiltered, arrayLength } = this.props;
+
     return (
       <div className="card-container">
         {isFiltered === true ? (
@@ -26,6 +29,7 @@ class Card extends Component {
             />
             <h1>{cardData.firstName}</h1>
             <p>{cardData.email}</p>
+            <AddToCartBtn selectedData={cardData} />
           </div>
         ) : (
           <div className="cardItem-container">
@@ -35,6 +39,7 @@ class Card extends Component {
             />
             <h1>{cardData.firstName}</h1>
             <p>{cardData.email}</p>
+            <AddToCartBtn selectedData={cardData} />
           </div>
         )}
       </div>

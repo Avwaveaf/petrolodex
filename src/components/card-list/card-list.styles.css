@@ -15,7 +15,7 @@
 .popUp-closeButton {
   position: fixed;
   right: 24%;
-  top: 8%;
+  top: 12%;
   font-weight: bold;
   color: white;
   background-color: red;
@@ -23,4 +23,10 @@
 }
 .popUp-closeButton:hover {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .popUp-closeButton {
+    right: 2%;
+  }
 }

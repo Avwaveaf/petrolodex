@@ -2,9 +2,10 @@
   display: none;
   opacity: 0;
 }
+
 .category-button:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .show {
@@ -19,11 +20,13 @@
   padding: 5px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
-
+  width: 300px;
+  background-color: black;
+  color: white;
   font-size: medium;
 }
 .clicked {
-  color: black;
+  color: white;
 }
 
 .category-button-selection p {
@@ -34,4 +37,10 @@
   background-color: black;
   color: white;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .category-button {
+    width: 200px;
+  }
 }

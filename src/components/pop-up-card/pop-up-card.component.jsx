@@ -2,6 +2,8 @@ import { Component, Fragment } from "react";
 
 import "./pop-up-card.style.css";
 
+import AddToCartBtn from "../add-to-cart-button/add-to-cart-btn.component";
+
 class PopUpCard extends Component {
   constructor() {
     super();
@@ -10,8 +12,8 @@ class PopUpCard extends Component {
     };
   }
   render() {
-    const { firstName, lastName, hair, gender, age, weight, eyeColor } =
-      this.props.data;
+    const { data } = this.props;
+    const { firstName, lastName, hair, gender, age, weight, eyeColor } = data;
     const { type } = hair;
     return (
       <Fragment>
@@ -62,6 +64,7 @@ class PopUpCard extends Component {
                 </p>
               </div>
             </div>
+            <AddToCartBtn selectedData={data} />
           </div>
         ) : (
           ""

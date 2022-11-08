@@ -7,7 +7,7 @@
   padding-left: 5%;
   background-color: black;
 
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   z-index: 999;
@@ -22,4 +22,43 @@
 .ad-text {
   font-size: xx-large;
   font-family: "Pacifico", cursive;
+}
+
+.cart-button-container {
+  width: 200px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.cart-counter {
+  color: white;
+  position: relative;
+  right: 25px;
+  bottom: 11px;
+}
+.material-symbols-outlined {
+  font-size: 40px;
+  z-index: 1;
+  right: 50px;
+  color: white;
+  position: fixed;
+  cursor: pointer;
+  top: 20px;
+  right: auto;
+  justify-content: center;
+}
+
+.cart-clicked {
+  border-bottom: 2px solid white;
+
+  width: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .material-symbols-outlined {
+    right: 20px;
+  }
+  .nav-container a {
+    width: 400px;
+  }
 }

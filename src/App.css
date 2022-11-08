@@ -6,11 +6,46 @@
   box-sizing: border-box;
   margin: auto;
   text-align: center;
+  background: rgb(241, 144, 16);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 144, 16, 1) 0%,
+    rgba(221, 219, 219, 1) 51%,
+    rgba(241, 144, 16, 1) 100%
+  );
 }
-.App button {
-  width: 300px;
+.App button :not(.category-button) {
+  width: auto;
   margin: auto;
 }
+
 *:focus {
   outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    width: 100%;
+  }
+  .App button :not(.category-button) {
+    width: auto;
+    margin: auto;
+  }
+
+  .cardList-container-child {
+    width: 250px;
+    padding: auto;
+    margin: auto;
+  }
+
+  .cate .card-container {
+    width: 80%;
+    margin: auto;
+  }
+  .addToCard-button {
+    width: 50;
+  }
+  .category-button {
+    width: 300px;
+  }
 }
