@@ -7,6 +7,8 @@
  3. you can search cat name using the search box
  4. you can sort the card by using a keyword that are match with Cat Username
  5. the cat description are in Card Component
+ 6. you can add to cart for contacting cat owner 
+ 7. cart functionality
  
 ### This project are fully developed by using ReactJS :rocket:
 so enjoy my small project :wink:
