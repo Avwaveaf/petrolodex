@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/petrolodex/static/css/main.078e2bfc.css",
+    "main.js": "/petrolodex/static/js/main.139f536c.js",
+    "static/js/787.e3e5afdc.chunk.js": "/petrolodex/static/js/787.e3e5afdc.chunk.js",
+    "index.html": "/petrolodex/index.html",
+    "main.078e2bfc.css.map": "/petrolodex/static/css/main.078e2bfc.css.map",
+    "main.139f536c.js.map": "/petrolodex/static/js/main.139f536c.js.map",
+    "787.e3e5afdc.chunk.js.map": "/petrolodex/static/js/787.e3e5afdc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.078e2bfc.css",
+    "static/js/main.139f536c.js"
+  ]
+}
